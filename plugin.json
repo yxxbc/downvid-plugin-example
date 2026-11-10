@@ -1,11 +1,14 @@
 {
   "id": "example",
   "name": "示例解析器",
-  "version": "0.1.0",
-  "description": "仅用于验证索引收录流程，不做真实解析",
+  "version": "0.2.0",
+  "description": "演示 DownVid 插件协议：仅解析 example.com，用于确认收录、安装与更新流程是否正常",
   "author": "yxxbc",
+  "homepage": "https://github.com/yxxbc/downvid-plugin-example",
   "main": "index.js",
+  "icon": "🧩",
   "playback": "downvid-parser",
   "minAppVersion": "1.11.0",
-  "permissions": { "network": ["example.com"] }
+  "sites": ["example.com", "example.org"],
+  "permissions": { "network": ["example.com", "example.org"] }
 }
