@@ -1,0 +1,11 @@
+{
+  "id": "example",
+  "name": "示例解析器",
+  "version": "0.1.0",
+  "description": "仅用于验证索引收录流程，不做真实解析",
+  "author": "yxxbc",
+  "main": "index.js",
+  "playback": "downvid-parser",
+  "minAppVersion": "1.11.0",
+  "permissions": { "network": ["example.com"] }
+}
